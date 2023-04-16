@@ -5,10 +5,6 @@ Simple kafka consumer
 # import time
 import os
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
 from kafka import KafkaConsumer
 from kafka.coordinator.assignors.roundrobin import RoundRobinPartitionAssignor
 
